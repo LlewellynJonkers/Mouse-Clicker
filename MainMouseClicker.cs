@@ -19,6 +19,7 @@ namespace Mouse_Clicker
 
         private void groupBox1_Enter(object sender, EventArgs e)
         {
+            
 
         }
 
@@ -51,6 +52,11 @@ namespace Mouse_Clicker
         }
 
         private void textBox1_TextChanged_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click_2(object sender, EventArgs e)
         {
 
         }
