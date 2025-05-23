@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Mouse_Clicker
 {
-    public partial class Form1 : Form
+    public partial class MainMouseClicker : Form
     {
-        public Form1()
+        public MainMouseClicker()
         {
             InitializeComponent();
         }
@@ -24,7 +24,8 @@ namespace Mouse_Clicker
 
         private void RadCheck_CheckedChanged(object sender, EventArgs e)
         {
-
+            txtFrequency.Enabled = radFrequency.Checked;
+            txtHours.Enabled = txtMinutes.Enabled = txtSeconds.Enabled = txtMilliseconds.Enabled = radbtnPeriod.Checked;
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
