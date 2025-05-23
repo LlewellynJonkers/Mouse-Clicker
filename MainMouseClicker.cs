@@ -24,8 +24,15 @@ namespace Mouse_Clicker
 
         private void RadCheck_CheckedChanged(object sender, EventArgs e)
         {
-            txtFrequency.Enabled = radFrequency.Checked;
-            txtHours.Enabled = txtMinutes.Enabled = txtSeconds.Enabled = txtMilliseconds.Enabled = radbtnPeriod.Checked;
+            txtFrequency.Enabled = lblFrequency.Enabled = radFrequency.Checked;
+            txtHours.Enabled = 
+                txtMinutes.Enabled = 
+                txtSeconds.Enabled = 
+                txtMilliseconds.Enabled = 
+                lblHours.Enabled =
+                lblMiniseconds.Enabled =
+                lblMinutes.Enabled = 
+                lblSeconds.Enabled = radbtnPeriod.Checked;
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
